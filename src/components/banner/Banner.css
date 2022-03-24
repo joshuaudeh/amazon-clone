@@ -1,0 +1,12 @@
+.banner {
+  position: relative;
+}
+
+.banner__fade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7rem;
+  background-image: linear-gradient(transparent, lightgray);
+  z-index: 20;
+}

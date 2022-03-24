@@ -1,0 +1,25 @@
+.productFeed {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (min-width: 700px) {
+  .productFeed {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: -10rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .advert-product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .productFeed {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
