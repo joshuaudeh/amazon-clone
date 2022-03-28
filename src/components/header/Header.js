@@ -39,7 +39,7 @@ function Header() {
         </span>
         <p>Today's Deals</p>
         <p>Customer Service</p>
-        <p>Registry</p>
+        <p className="options">Registry</p>
         <p className="options">Gift Cards</p>
         <p className="options">Sell</p>
       </div>

@@ -3,8 +3,8 @@
   margin: 5px;
   display: flex;
   flex-direction: column;
-  padding: 10px;
   position: relative;
+  padding: 10px;
   z-index: 30;
 }
 
@@ -51,4 +51,11 @@
 
 .product > button:active {
   background-image: linear-gradient(180deg, #fc9712, #fc9712);
+}
+
+@media screen and (min-width: 2000px) {
+  .product {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
